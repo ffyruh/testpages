@@ -1,10 +1,10 @@
 
 const moveToAll = () => {
-  window.location = '/testpages/pages/all.html';
+  window.location = '/testpages/all/';
 }
 
 const moveToSingle = () => {
-  window.location = '/testpages/pages/single.html';
+  window.location = '/testpages/single/';
 }
 
 const main = () => {

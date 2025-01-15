@@ -7,8 +7,8 @@ export default defineConfig({
     rollupOptions: {
       input: {
         main: resolve(__dirname, '/index.html'),
-        all: resolve(__dirname, '/pages/all.html'),
-        single: resolve(__dirname, '/pages/single.html'),
+        all: resolve(__dirname, '/all/index.html'),
+        single: resolve(__dirname, '/single/index.html'),
       }
     }
   } 
