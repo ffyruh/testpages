@@ -1,13 +1,13 @@
 const moveToAll = () => {
-  window.location = '/pages/all.html'
+  window.location = '/testpages/all.html'
 }
 
 const moveToSingle = () => {
-  window.location = '/pages/single.html'
+  window.location = '/testpages/single.html'
 }
 
 const main = () => {
-  if (window.location.pathname !== '/') return;
+  if (window.location.pathname !== '/testpages/') return;
 
   const allButton = document.querySelector('#all');
   const singleButton = document.querySelector('#single');
